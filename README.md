@@ -1,7 +1,8 @@
 # Next.js Resume Page
 
 ## Description
-This project is a resume webpage built with Next.js and Tailwind CSS.
+This project is a personal resume webpage built using **Next.js (App Router)** and **Tailwind CSS**.  
+It recreates a professional resume layout using modern frontend technologies, focusing on clean design, semantic structure, and utility-first styling.
 
 ## How to run locally
 1. npm install
@@ -13,5 +14,5 @@ This project is a resume webpage built with Next.js and Tailwind CSS.
 - Styled using Tailwind CSS utility classes
 - Responsive layout
 
-## Known issues / limitations
+## Known issues/limitations
 None
