@@ -28,25 +28,31 @@ export default function Home() {
             kmhay@usf.edu
           </p>
         </header>
-          <section className="mb-8">
+
+        <div className="px-8 py-8 md:px-12 md:py-10">
+          <section className="mb-10">
             <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-slate-500">
-            Summary
+              Summary
             </h2>
 
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-             <p className="text-sm leading-relaxed text-slate-700">
-               Detail-oriented Statistics student with a strong foundation in data analysis, business analytics, and software development. Experienced in building dashboards, analyzing datasets, and supporting marketing and sales operations. Seeking to leverage analytical and technical skills to deliver data-driven insights and solutions.
-             </p>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:shadow-md">
+              <p className="text-sm leading-relaxed text-slate-700">
+                Detail-oriented Statistics student with a strong foundation in
+                data analysis, business analytics, and software development.
+                Experienced in building dashboards, analyzing datasets, and
+                supporting marketing and sales operations. Seeking to leverage
+                analytical and technical skills to deliver data-driven insights
+                and solutions.
+              </p>
             </div>
           </section>
 
-        <div className="px-8 py-8 md:px-12 md:py-10">
           <section className="mb-8">
             <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-slate-500">
               Education
             </h2>
 
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:shadow-md">
               <h3 className="text-lg font-semibold text-slate-900 md:text-xl">
                 Bachelor of Arts in Statistics | Business Analytics and
                 Information Systems Certificate
@@ -86,7 +92,7 @@ export default function Home() {
             </h2>
 
             <div className="space-y-5">
-              <article className="rounded-2xl border border-slate-200 p-6 transition hover:shadow-md">
+              <article className="rounded-2xl border border-slate-200 bg-white p-6 transition duration-300 hover:shadow-md">
                 <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">
@@ -101,7 +107,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <ul className="mt-4 ml-5 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
+                <ul className="ml-5 mt-4 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
                   <li>
                     Executed automated outreach and lead qualification campaigns
                     across LinkedIn and Facebook.
@@ -113,7 +119,7 @@ export default function Home() {
                 </ul>
               </article>
 
-              <article className="rounded-2xl border border-slate-200 p-6 transition hover:shadow-md">
+              <article className="rounded-2xl border border-slate-200 bg-white p-6 transition duration-300 hover:shadow-md">
                 <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">
@@ -128,7 +134,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <ul className="mt-4 ml-5 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
+                <ul className="ml-5 mt-4 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
                   <li>
                     Used Excel and Google Forms to identify and analyse trends
                     in insurance claims and customer behaviour from 50+ clients.
@@ -140,7 +146,7 @@ export default function Home() {
                 </ul>
               </article>
 
-              <article className="rounded-2xl border border-slate-200 p-6 transition hover:shadow-md">
+              <article className="rounded-2xl border border-slate-200 bg-white p-6 transition duration-300 hover:shadow-md">
                 <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">
@@ -156,7 +162,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <ul className="mt-4 ml-5 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
+                <ul className="ml-5 mt-4 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
                   <li>
                     Managed facility access, tracked equipment usage, and
                     maintained the lost and found system.
@@ -172,7 +178,7 @@ export default function Home() {
                 </ul>
               </article>
 
-              <article className="rounded-2xl border border-slate-200 p-6 transition hover:shadow-md">
+              <article className="rounded-2xl border border-slate-200 bg-white p-6 transition duration-300 hover:shadow-md">
                 <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">
@@ -188,7 +194,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <ul className="mt-4 ml-5 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
+                <ul className="ml-5 mt-4 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
                   <li>
                     Provided tailored consultations to clients regarding nail
                     care and design preferences.
@@ -211,15 +217,15 @@ export default function Home() {
               Leadership & Professional Development
             </h2>
 
-            <article className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+            <article className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:shadow-md">
               <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900">
                     General Body Meeting (GBM) Coordinator
                   </h3>
                   <p className="text-sm text-slate-500">
-                    LIME – Trinidadian Cultural Club, University of South Florida
-                    · Tampa, Florida
+                    LIME – Trinidadian Cultural Club, University of South
+                    Florida · Tampa, Florida
                   </p>
                 </div>
                 <p className="text-sm font-medium text-slate-500">
@@ -227,7 +233,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <ul className="mt-4 ml-5 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
+              <ul className="ml-5 mt-4 list-disc space-y-2 text-sm leading-relaxed text-slate-700">
                 <li>
                   Created and presented weekly PowerPoint sessions and
                   interactive activities to promote Trinidadian culture.
@@ -250,7 +256,7 @@ export default function Home() {
                 Projects & Portfolio
               </h2>
 
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:shadow-md">
                 <ul className="space-y-4 text-sm leading-relaxed text-slate-700">
                   <li>
                     <span className="font-semibold text-slate-900">
@@ -260,7 +266,7 @@ export default function Home() {
                       href="https://kmhay-zbrix.wordpress.com/"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-blue-600 underline underline-offset-2"
+                      className="text-blue-600 underline underline-offset-2 hover:text-blue-800"
                     >
                       kmhay-zbrix.wordpress.com
                     </a>
@@ -271,7 +277,7 @@ export default function Home() {
                       href="https://github.com/kyanahay"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-blue-600 underline underline-offset-2"
+                      className="text-blue-600 underline underline-offset-2 hover:text-blue-800"
                     >
                       github.com/kyanahay
                     </a>
@@ -289,7 +295,7 @@ export default function Home() {
                 Skills
               </h2>
 
-              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:shadow-md">
                 <div>
                   <h3 className="mb-4 text-lg font-semibold text-slate-900">
                     Languages & Tools
