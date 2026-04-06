@@ -28,6 +28,17 @@ export default function Home() {
             kmhay@usf.edu
           </p>
         </header>
+          <section className="mb-8">
+            <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-slate-500">
+            Summary
+            </h2>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+             <p className="text-sm leading-relaxed text-slate-700">
+               Detail-oriented Statistics student with a strong foundation in data analysis, business analytics, and software development. Experienced in building dashboards, analyzing datasets, and supporting marketing and sales operations. Seeking to leverage analytical and technical skills to deliver data-driven insights and solutions.
+             </p>
+            </div>
+          </section>
 
         <div className="px-8 py-8 md:px-12 md:py-10">
           <section className="mb-8">
