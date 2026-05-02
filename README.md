@@ -16,3 +16,6 @@ It recreates a professional resume layout using modern frontend technologies, fo
 
 ## Known issues/limitations
 None
+
+## Author
+Kyana Hay
